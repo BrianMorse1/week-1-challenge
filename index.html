@@ -8,23 +8,24 @@
 </head>
 
 <body>
-    <div class="header">
+    <!-- changed div to semantic header element-->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
+        <!-- removed unecessary div element and fixed indentation.-->
+        <ul>
+            <li>
+                <a href="#search-engine-optimization">Search Engine Optimization</a>
+            </li>
+            <li>
+                <a href="#online-reputation-management">Online Reputation Management</a>
+            </li>
+            <li>
+                <a href="#social-media-marketing">Social Media Marketing</a>
+            </li>
+        </ul>        
+    </header>
+    <!-- Changed hero div to img element, moved source from CSS, -->
+    <img src="Assets/images/digital-marketing-meeting.jpg" alt="image of meeting">
     <div class="content">
         <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="Assets/images/search-engine-optimization.jpg" alt="Image of office items and coffee" class="float-left"/>
