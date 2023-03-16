@@ -46,7 +46,6 @@ a {
 p {
     font-size: 16px;
 }
-/* added to address image skewing*/
 
 /* changed code to target img element and moved source to html code*/
 body img {
